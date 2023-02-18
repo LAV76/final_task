@@ -1,6 +1,7 @@
 ﻿
 string[] array = {"один", "two", "three", "four", "five", "six", "su", ".", " ", "2"};
 int i = 0, j = 0;
+
 foreach (string item in array)
 {
     if (item.Length < 4) i++;
