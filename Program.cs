@@ -15,4 +15,5 @@ foreach (string item in array)
         j++;
     }
 }
-Console.WriteLine($"[{String.Join (",",arr)}]");
+Console.WriteLine($"Исходный массив: [{String.Join (",",array)}]");
+Console.WriteLine($"Массив содержащий строки в которых не более 3 символов[{String.Join (",",arr)}]");
